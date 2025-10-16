@@ -1,5 +1,7 @@
 <?php
-require_once "templates/header.php";
+
+include_once "./templates/header.php";
+
 ?>
 
 <div class="container">
@@ -17,19 +19,19 @@ require_once "templates/header.php";
         <form method="post" action="<?= htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
             <div class="form-group">
                 <label>Name</label>
-                <input type="text" name="name" value="<?= htmlspecialchars($name); ?>" placeholder="Your Name"
+                <input type="text" name="name" placeholder="Your Name"
                     minlength="3" maxlength="70" required>
             </div>
 
             <div class="form-group">
                 <label>Email</label>
-                <input type="email" name="email" value="<?= htmlspecialchars($email); ?>" placeholder="Your Email">
+                <input type="email" name="email" placeholder="Your Email">
             </div>
 
             <div class="form-group">
                 <label>Message</label>
                 <textarea name="message" placeholder="Your Message"
-                    required><?= htmlspecialchars($message); ?></textarea>
+                    required></textarea>
             </div>
 
             <button type="submit">Submit</button>
@@ -38,5 +40,7 @@ require_once "templates/header.php";
 </div>
 
 <?php
-require_once "templates/footer.php";
+
+include_once "./templates/footer.php";
+
 ?>

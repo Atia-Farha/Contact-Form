@@ -1,4 +1,5 @@
 <?php
+
 function clean_input($data)
 {
     $data = trim($data);
@@ -7,4 +8,5 @@ function clean_input($data)
 
     return $data;
 }
+
 ?>
