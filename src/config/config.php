@@ -1,9 +1,8 @@
 <?php
 
-define('DB_HOST', getenv('DB_HOST'));
-define('DB_USER', getenv('DB_USERNAME'));
-define('DB_PASS', getenv('DB_PASSWORD'));
-define('DB_NAME', getenv('DB_NAME'));
-define('DB_PORT', getenv('DB_PORT'));
+define('DB_HOST', 'localhost');
+define('DB_USER', 'root');
+define('DB_PASS', '');
+define('DB_NAME', 'contact_form_db');
 
 ?>
