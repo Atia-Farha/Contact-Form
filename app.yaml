@@ -1,0 +1,14 @@
+kind: wasmer.io/App.v0
+name: contact-form-webpage
+owner: joharaaktarsheuly
+
+package:
+  detect: true
+
+capabilities:
+  database:
+    engine: mysql
+
+locality:
+  regions:
+    - us-socal1
